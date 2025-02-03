@@ -8,6 +8,9 @@ const NonDashboardNavbar = () => {
       <Link href="/" className="nondashboard-navbar__brand">
         EDROH
       </Link>
+      <div className="flex items-center gap-4">
+        <div className="relative group"></div>
+      </div>
      </div>
    </nav>
   )
