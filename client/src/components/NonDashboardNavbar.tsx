@@ -23,9 +23,9 @@ const NonDashboardNavbar = () => {
       </div>
      </div>
      <div className="nondashboard-navbar__actions">
-      <button className="nondashboard-navbar__notifications-button">
-        <span className="nondashboard-navbar__notifications-indicator"></span>
-         <Bell className="nondashboard-navbar__notifications-icon" />
+      <button className="nondashboard-navbar__notification-button">
+        <span className="nondashboard-navbar__notification-indicator"></span>
+         <Bell className="nondashboard-navbar__notification-icon" />
       </button>
      </div>
    </nav>
