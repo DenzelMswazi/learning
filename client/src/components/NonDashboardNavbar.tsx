@@ -13,6 +13,7 @@ const NonDashboardNavbar = () => {
           <Link href="/search"
           className="nondashboard-navbar__search-input">
             <span className="hidden sm:inline">Search Courses</span>
+            <span className="sm:hidden">Search</span>
           </Link>
         </div>
       </div>
