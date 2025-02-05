@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from "framer-motion"
+import Link from 'next/link';
 
 const Landing = () => {
   return (
@@ -23,6 +24,11 @@ const Landing = () => {
                 <br />
                 Courses when you need them and want them.
                </p>
+               <div className="landing_cta">
+                <Link href="/search">
+                <div className="landing__cta-button">Search For Courses</div>
+                </Link>
+               </div>
             </div>
          </motion.div>
     </motion.div>
