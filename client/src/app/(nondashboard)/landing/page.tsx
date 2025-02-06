@@ -50,7 +50,7 @@ const Landing = () => {
          </motion.div>
          <motion.div
          initial={{ y:20, opacity: 0}}
-         animate={{ y:0, opacity: 1}}
+         whileInView={{ y:0, opacity: 1}}
          transition={{ duration: 0.5}}
          viewport={{ amount: 0.3, once: true}}
          className="landing__hero">
