@@ -59,7 +59,12 @@ const Landing = () => {
             From beginner to advanced, in all industries, We have the right Courses just for you and prepairing your entire journey for learning and making the most.
            </p>
            <div className="landing__tags">
-
+             {[ "web development", "enterprice IT", "react nextjs", "web development", "enterprice IT"].map((tag, index) => (
+              <span key={index} className="landing__tag">
+                {tag}
+              </span>
+             ))
+             }
            </div>
          </motion.div>
     </motion.div>
