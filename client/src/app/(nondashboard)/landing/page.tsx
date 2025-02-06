@@ -5,6 +5,19 @@ import { motion } from "framer-motion"
 import Link from 'next/link';
 import Image from 'next/image';
 import { useCarousel } from '@/hooks/useCarousel';
+import { Skeleton } from '@/components/ui/skeleton';
+
+const LoadingSkeleton = () => {
+  return (
+    <div className="landing-skeleton">
+      <div className="landing-skeleton__hero">
+        <div className="landing-skeleton__hero-content">
+          <Skeleton className="landing-skeleton__title" />
+        </div>
+      </div>
+    </div>
+  )
+}
 
 const Landing = () => {
    const currentImage = useCarousel({ totalImages: 3}) 
@@ -65,6 +78,9 @@ const Landing = () => {
               </span>
              ))
              }
+           </div>
+           <div className="landing__courses">
+              {/* Courses */}
            </div>
          </motion.div>
     </motion.div>
